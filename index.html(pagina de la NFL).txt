@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de la NFL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1a1a1a;
+        }
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #1a1a1a;
+        }
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .link-container a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        .link-container a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenidos a la Página de la NFL</h1>
+        
+        <!-- Imagen de la página -->
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x400" alt="Imagen de la NFL">
+        </div>
+
+        <!-- Párrafos de contenido -->
+        <p>La NFL es una de las ligas deportivas más emocionantes del mundo. Cada temporada nos trae enfrentamientos épicos y momentos inolvidables para los aficionados.</p>
+        <p>Con 32 equipos compitiendo por el trofeo Vince Lombardi, la NFL es una liga que exige lo mejor de cada jugador en el campo de juego.</p>
+        <p>La historia de la NFL está llena de grandes leyendas y jugadas que han quedado en la memoria de los fanáticos del fútbol americano.</p>
+        <p>La Super Bowl es uno de los eventos más esperados, no solo por el juego, sino también por el espectáculo del medio tiempo.</p>
+        <p>Los equipos de la NFL entrenan intensamente durante la temporada baja para estar listos para la competencia, mostrando disciplina y trabajo en equipo.</p>
+        <p>El fútbol americano es un deporte de contacto que requiere habilidades físicas y mentales para superar los desafíos en cada partido.</p>
+        <p>El apoyo de los fanáticos es fundamental para los equipos de la NFL, quienes llenan los estadios y vibran con cada jugada.</p>
+        <p>La NFL ha crecido en popularidad a nivel mundial, con millones de seguidores que disfrutan cada jornada desde todos los rincones del planeta.</p>
+        <p>Las estrategias y tácticas utilizadas por los entrenadores son clave para ganar partidos y conseguir el campeonato.</p>
+        <p>La NFL no solo es entretenimiento, sino también un reflejo de la dedicación y el esfuerzo que los jugadores ponen en cada entrenamiento y partido.</p>
+
+        <!-- Link a otra página sobre el cuidado del cuerpo -->
+        <div class="link-container">
+            <p>Conoce más sobre la <a href="cuidado-del-cuerpo.html">importancia del cuidado del cuerpo</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
